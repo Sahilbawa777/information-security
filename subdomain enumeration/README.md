@@ -1,7 +1,7 @@
 
-To run this:
+To Run This:
 - `pip3 install -r requirements.txt`
-- To run the fast subdomain scanner:
+- To Run the fast subdomain scanner:
     ```
     python fast_subdomain_scanner.py --help
     ```
@@ -42,7 +42,7 @@ To run this:
     [+] Discovered subdomain: http://stats.hackthissite.org
     [+] Discovered subdomain: http://forums.hackthissite.org
     ```
-    If you want to output the discovered URLs to a file:
+    If you want to attain output the discovered URLs to a file are:
     ```
     python fast_subdomain_scanner.py hackthissite.org -l subdomains.txt -t 10 -o discovered_urls.txt
     ```
